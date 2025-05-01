@@ -1,52 +1,45 @@
 @charset "UTF-8";
 body {
-  font-family: Georgia, serif;
-  font-size: 100%;
-  line-height: 175%;
-  margin: 0 15% 0;
-  background: #ffe19b url(images/blackgoose.png) no-repeat center 100px fixed;
+  background-color: #e8fae4;
+  margin: 0 10%;
+  font-family: "Sofia sans", sans-serif; 
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+  background:#dbfdd3 url(images/blackgoose.png) no-repeat center 100px fixed;
+  text-align: center;
 }
 header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
+  font-family: "Sofia sans", sans-serif; 
   text-align: center;
   background: url(images/purpledot.png) center top repeat-x;
   background: 
     url(images/purpledot.png) left top repeat-y,
     url(images/purpledot.png) right top repeat-y,
-    url(images/gooseshadow.png) 90% bottom no-repeat;
-  background-color: rgba(255,255,255,.5);
 }
 
-a {
-  text-decoration: none;
-}
-a:link {
-  color: rgb(99, 142, 179);
-}
-a:visited {
-  color: rgb(71, 114, 151);
-}
 a:focus, a:hover {
   color: rgb(158, 207, 249);
   background-color: #fff;
 }
-a:active {
-  color: rgb(158, 207, 249);
-  background-color: #fff;
-}
+
 
 h1 {
-  font: bold 1.5em Georgia, serif;
+  text-align: center;
+  font-family: "Sofia", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000000;
   text-shadow: .05em .05em .1em lightslategray;
-  color: rgb(99, 142, 179);
+  margin-top: 30px;
 }
 h2 {
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: .5em;
+  color: #d1633c;
+  font-family: "Sofia", cursive;
+  font-size: 1.5em;
   text-align: center;
-  color: rgb(255, 98, 0);
 }
 dt {
   font-weight: bold;

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body {
+    background-color: #e8fae4;
+    margin: 0 10%;
+    font-family: "Sofia sans", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    background: #dbfdd3 url(../../bistro/images/blackgoose.png) no-repeat center 100px fixed;
+    text-align: left;
+}
+
+header {
+    margin-top: 0;
+    padding: 3em 1em 2em 1em;
+    font-family: "Sofia sans", sans-serif; 
+    text-align: left;
+    background: url(../../bistro/images/purpledot.png) center top repeat-x;
+    background: 
+      url(../../bistro/images/purpledot.png) left top repeat-y,
+      url(../../bistro/images/purpledot.png) right top repeat-y,
+}
+
+h1 {
+    text-align: left;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000000;
+    text-shadow: .05em .05em .1em lightslategray;
+    margin-top: 30px;
+}
+h2 {
+    color: #d1633c;
+    font-family: "Sofia", cursive;
+    margin-left: 100px;
+}
+p { 
+    font-size: large;
+    font-family: "Sofia sans", sans-serif;
+    margin-left: 100px;
+}
+img {
+    float: right;
+    margin: 0 12px; 
+}
